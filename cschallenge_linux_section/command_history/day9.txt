@@ -1,0 +1,37 @@
+  177  mkdir rmdir_folder
+  178  cd rmdir_folder/
+  179  mkdir delete_folder
+  180  ls
+  181  rmdir delete_folder/
+  182  ls
+  183  mkdir java/ kotlin/ javascript/ python
+  184  ls
+  185  rmdir java/ kotlin/ lavascript/ python
+  192  mkdir English/ Japaness/ Thai
+  193  ls
+  195  mkdir English/chapter1
+  196  touch English/chapter1/lesson1.txt
+  197  ls English/chapter1/
+  198  mkdir Japaness/chapter1.txt
+  199  rmdir English/ Japaness/ Thai/
+  200  rm -r English/
+  201  rm -r Japaness/
+  202  ls
+  203  rmdir chapter1/
+  204  ls
+  205  mkdir language/
+  206  mkdir -p language/english/chapter1/
+  207  ls -R language/
+  208  rmdir -p language/english/chapter1/
+  209  ls
+  210  mkdir -pv language/english/chapter1/
+  211  rmdir -pv language/english/chapter1/
+  212  cd
+  213  cd Desktop/
+  214  ls
+  215  cd CSchallenge/
+  216  ls
+  217  cd command_history/
+  218  touch day9.txt
+  219  history > day9.txt 
+Thu Nov 20 07:31:09 PM +0630 2025

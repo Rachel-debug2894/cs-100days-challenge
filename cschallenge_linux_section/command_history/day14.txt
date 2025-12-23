@@ -1,0 +1,28 @@
+Tue Nov 25 06:25:54 PM +0630 2025
+  225  cd Desktop/CSchallenge/
+  226  mkdir vi_vim_folder
+  227  cd vi_vim_folder/
+  228  vi vi_file1.txt
+  229  cat vi_file1.txt 
+  230  vim -v
+  231  vim vim_file1.txt
+  232  vim vim_file1.txt 
+  233  history
+  234  cd command_history/
+  235  cat vim_file1.txt 
+  236  history
+  237  cat > vim_file2.txt
+  238  cat vim_file2.txt 
+  239  man ls
+  240  whatis ls
+  241  whatis mkdir
+  242  sudo dnf install man-db
+  243  whatis ls
+  244  sudo mandb
+  245  whatis ls
+  246  what mkdir
+  247  whatis mkdir
+  248  whatis cd
+  249  whatis rmdir
+  250  history
+

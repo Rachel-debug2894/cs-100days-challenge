@@ -1,0 +1,14 @@
+  225  cd Desktop/CSchallenge/
+  226  mkdir less_folder
+  227  cd less_folder
+  228  touch less_file1.txt
+  229  cat less_file1.txt 
+  230  clear
+  231  cat less_file1.txt 
+  232  clear
+  233  less less_file1.txt 
+  234  cd ..
+  235  ls
+  236  cd command_history/
+  237  history > day12.txt
+Sun Nov 23 07:39:33 PM +0630 2025

@@ -1,0 +1,20 @@
+  225  cd Desktop/CSchallenge/
+  226  mkdir touch_folder
+  227  cd touch_folder/
+  228  touch touch_file1.txt
+  229  cat > touch_file1.txt 
+  230  ls -l
+  231  touch touch_file1.txt 
+  232  ls -lh touch_file1.txt 
+  233  cat touch_file1.txt 
+  234  cd ..
+  235  mkdir nano_folder
+  236  cd nano_folder/
+  237  touch nano_file1.txt
+  238  rmdir nano_file1.txt
+  239  rm nano_file1.txt 
+  240  nano nano_file1.txt
+  241  cat nano_file1.txt 
+  242  cd ..
+  243  ls
+Mon Nov 24 05:44:07 PM +0630 2025

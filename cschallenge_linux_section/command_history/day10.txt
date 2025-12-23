@@ -1,0 +1,76 @@
+  221  cd Desktop/CSchallenge/
+  222  mkdir cp_folder
+  223  ls
+  224  date >> cp_file1.txt
+  225  cat cp_file1.txt 
+  226  cd cp_folder/
+  227  cp cp_file1.txt cp_file2.txt
+  228  ls
+  229  cat cp_file2.txt 
+  230  cat >> cp_file1.txt 
+  231  cat cp_file1.txt 
+  232  cp cp_file1.txt cp_file2.txt 
+  233  ls
+  234  cat cp_file2.txt 
+  235  mkdir cp_dir1/
+  236  ls
+  237  cat >> cp_file3.txt
+  238  ls
+  239  cp cp_file1.txt cp_dir1/
+  240  ls -R
+  241  cp cp_file2.txt cp_file3.txt cp_dir1/
+  242  ls -R
+  243  cd ..
+  244  ls
+  245  cat > cs_file.txt
+  246  cd ..
+  247  cp CSchallenge/cs_file.txt CSchallenge/cp_folder/cp_dir1/
+  248  cd CSchallenge/cp_folder/
+  249  ls
+  250  ls cp_dir1/
+  251  cat cs_file.txt
+  252  cat cp_dir1/cs_file.txt 
+  253  clear
+  254  cd ..
+  255  cd -
+  256  mkdir cp_dir2/
+  257  cd cp_dir2/
+  258  cat >> cp_nested_file1.txt
+  259  cat >> cp_nested_file2.txt
+  260  ls
+  261  cd ..
+  262  cd cp_dir1/
+  263  ls ../
+  264  cp ../cp_dir2/cp_nested_file1.txt ../cp_dir2/cp_nested_file2.txt 
+  265  ls-a
+  266  ls -d
+  267  ls -a
+  268  ls ../
+  269  cd ..
+  270  cd cp_dir2/
+  271  cp ../cp_file1.txt ../cp_file2.txt ../cp_file3.txt . 
+  272  ls
+  273  cd -
+  274  cp -R cp_dir
+  275  cp -R cp_dir1/ cp_dir3/
+  279  cp cp_dir2/ cp_dir3/
+  280  cp -R  cp_dir2/ cp_dir3/
+  283  ls
+  284  touch cp_dir1/ cp_file4.txt
+  285  cp -r cp_dir1/ cp_dir3/
+  286  ls cp_dir3/
+  287  clear
+  288  ls
+  289  cat cp_file3.txt 
+  290  cat > cp_file4.txt
+  291  cp cp_file3.txt cp_file4.txt 
+  292  cat cp_file4.txt 
+  293  cp -i cp_file2.txt cp_file4.txt 
+  294  cat cp_file4.txt 
+  295  cp -i cp_file2.txt cp_file4.txt 
+  296  cat cp_file4.txt 
+  297  cd ~
+  298  cd Desktop/CSchallenge/command_history/
+  299  touch day10.txt
+  300  history > day10.txt 
+Fri Nov 21 12:17:38 PM +0630 2025

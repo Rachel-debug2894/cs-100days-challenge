@@ -1,0 +1,23 @@
+  176  cd Desktop/CSchallenge/mkdir_folder/
+  177  mkdir 'My Language'
+  178  mkdir "My Project"
+  179  mkdir Linux Tutorials
+  180  ls
+  181  rmdir Linux Tutorials
+  182  ls
+  183  mkdir Linux\ Tutorials
+  184  ls
+  185  mkdir 'My Lab' 'My Note'
+  186  ls
+  187  mkdir Linux\ Tutorials/chapter1
+  188  ls Linux\ Tutorials/
+  189  mkdir Linux\ Tutorials/chapter{2,3,4,5}
+  190  ls Linux\ Tutorials/
+  191  mkdir Linux\ Tutorials/{command,note}
+  192  ls Linux\ Tutorials/
+  193  mkdir -p Java\ Tutorials/chapter{1,2,3}
+  194  ls Java\ Tutorials/
+  195  mkdir -pv React\ Project/{src,components,nodes}
+  207  touch day8.txt
+  208  history > day8.txt 
+Wed Nov 19 05:41:45 PM +0630 2025
